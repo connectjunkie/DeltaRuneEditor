@@ -1,0 +1,19 @@
+# Real DELTARUNE save data — never publish.
+# The directory itself is kept (SwiftPM needs the resource path to exist) but its
+# contents are ignored. See Tests/DeltaruneCoreTests/Fixtures/README.md.
+Tests/DeltaruneCoreTests/Fixtures/*
+!Tests/DeltaruneCoreTests/Fixtures/README.md
+
+# Guard against a save folder being dropped in the repo root while testing
+com.tobyfox.deltarune/
+Files/
+
+# Build output
+.build/
+.cache/
+build/
+*.dmg
+
+# macOS / editor cruft
+.DS_Store
+*.xcuserstate
