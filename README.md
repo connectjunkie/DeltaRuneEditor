@@ -74,7 +74,7 @@ No other dependencies. The app is a single self-contained bundle of about 3 MB.
 ## Build and run
 
 ```sh
-git clone https://github.com/<you>/DeltaRuneEditor.git
+git clone https://github.com/connectjunkie/DeltaRuneEditor.git
 cd DeltaRuneEditor
 
 swift build                     # build the library and app
